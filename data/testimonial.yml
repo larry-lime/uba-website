@@ -37,3 +37,9 @@ testimonial_item:
     company_position: "Involvement Director"
     quote: >
       Sophomore, IMA & Computer Science
+
+  - thumb: "images/team/jason_uba_pic.webp"
+    name: "Jason Li"
+    company_position: "Treasurer"
+    quote: >
+      Sophomore, Business & Finance

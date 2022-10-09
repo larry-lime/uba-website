@@ -45,9 +45,9 @@ members:
     linkedin: https://www.linkedin.com/in/xiaozao-wang-a92769224/
     instagram: https://www.instagram.com/wang.xiaozao/?hl=en
 
-  # - image: images/team/team-member-four.jpg
-  #   name: JASON LI
-  #   designation: Treasurer
-  #   medium: https://www.medium.com/
-  #   linkedin: https://www.linkedin.com/
-  #   instagram: https://www.instagram.com/
+  - image: images/team/jason_uba_pic.webp
+    name: JASON LI
+    designation: Treasurer
+    email: mailto:jl12619@nyu.edu
+    linkedin: https://www.linkedin.com/in/jason-li-270730238/
+    instagram: https://www.instagram.com/jasonl0716/?hl=en
