@@ -1,0 +1,68 @@
+{{ define "main" }}
+
+<section class="site-about-header">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="site-about-wrapper">
+          <div class="site-about-company">
+            <h1>{{ .Params.heading }}</h1>
+          </div>
+          <div class="site-about-description">
+            <p>{{ .Description }}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="site-overview">
+  <div class="container">
+    <h2>What to expect from UBA?</h2>
+    <h3>Workshop</h3>
+    <p>
+      Regular events which encourage and guide members in career progress through building professional
+      self-branding as well as valuable advice from guest speakers in various industries.
+    </p>
+    <h3>Mentorship</h3>
+    <p>Mentor-Mentee pairings belong to different UBA ‘Families’ which are led by different E-Board members. This
+      allows a more interconnected and interactive experience, providing opportunities for all club members to bond.
+    </p>
+    <h3>Networking</h3>
+    <p>Networking opportunities in both our Workshops and Mentorships, especially through our Speaker Series, and
+      more!
+    </p>
+  </div>
+</section>
+
+<section class="site-expertise">
+  <div class="container">
+    <div class="row">
+      {{ with .Params.mantra_intro }}
+      <div class="col-md-5">
+        <div class="section-title">
+          <h2>{{ . }}</h2>
+        </div>
+      </div>
+      {{ end }}
+      <div class="col-md-6">
+        <ul class="site-expertise-list">
+          {{ range .Params.mantra_parts }}
+          <li>{{ . }}</li>
+          {{ end }}
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+{{ partial "team.html" . }}
+
+<!-- {{ partial "testimonial.html" . }} -->
+
+{{ partial "clients.html" . }}
+
+{{ partial "call-to-action.html" . }}
+
+{{ end }}

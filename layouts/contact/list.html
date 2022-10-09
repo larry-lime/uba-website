@@ -1,0 +1,71 @@
+{{ define "main" }}
+<section class="site-contact">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-5">
+        <h1 class="site-contact-title">
+          {{ .Params.heading | safeHTML }}
+        </h1>
+      </div>
+      <div class="col-lg-6 ml-auto">
+        <div class="site-contact-form">
+          <!--Socials links START-->
+          <!--TODO Paramaratize the following values-->
+          <h4>Social Media</h4>
+          <h5>Email: <a href="mailto:sh.uba.club@nyu.edu">sh.uba.club@nyu.edu</a></h5>
+          <h5>LinkedIn: <a href="https://www.linkedin.com/company/uba-nyush" target="_blank">UBA at NYUSH</a></h5>
+          <h5>Instagram: <a href="https://www.instagram.com/uba.nyush" target="_blank">uba.nyush</a></h5>
+          <h5>Linktree: <a href="https://linktr.ee/uba_nyush" target="_blank">uba_nyush</a></h5>
+          <hr>
+          <!--TODO Paramaratize the following values-->
+          <!--Socials links END-->
+          <h4>{{ .Params.form_heading }}</h4>
+          <!--Contact Form START-->
+          <form name="contact" method="POST" data-netlify="true">
+            <div class="row">
+              <div class="col-lg-6">
+                <input type="text" class="form-control" name="first-name" id="first-name"
+                  placeholder="{{ .Site.Params.contactForm.placeholder_first_name }}" required>
+              </div>
+              <div class="col-lg-6">
+                <input type="text" class="form-control" name="last-name" id="last-name"
+                  placeholder="{{ .Site.Params.contactForm.placeholder_last_name }}" required>
+              </div>
+              <div class="col-lg-6">
+                <input type="email" class="form-control" name="email" id="email"
+                  placeholder="{{ .Site.Params.contactForm.placeholder_email }}" required>
+              </div>
+              <div class="col-lg-6">
+                <div class="select-wrapper">
+                  <select class="form-control" id="projectType" name="project-type" required>
+                    <option value="" selected disabled hidden>{{ .Site.Params.contactForm.placeholder_project_type }}
+                    </option>
+                    {{ range .Site.Params.contactForm.projectType }}
+                    <option value="{{ .value }}">{{ .title }}</option>
+                    {{ end }}
+                  </select>
+                </div>
+              </div>
+              <div class="col-12">
+                <textarea class="form-control" id="aboutProject" name="about-project" rows="6"
+                  placeholder="{{ .Site.Params.contactForm.placeholder_about_the_project }}"></textarea>
+              </div>
+              <div class="col-12">
+                <button type="submit" class="btn btn-primary" id="contact-form-button">
+                  <span class="btn-area">
+                    <span data-text="{{ .Site.Params.contactForm.send_message }}">
+                      {{ .Site.Params.contactForm.send_message }}
+                    </span>
+                  </span>
+                </button>
+              </div>
+              <p id="contact-form-status"></p>
+            </div>
+          </form>
+          <!--Contact Form END-->
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}

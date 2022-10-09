@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>News on UBA @ NYU Shanghai</title>
+    <link>/blog/</link>
+    <description>Recent content in News on UBA @ NYU Shanghai</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 23 Dec 2019 20:17:01 +0600</lastBuildDate><atom:link href="/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>UBA Newsletter - Oct 6</title>
+      <link>/blog/oct-6/</link>
+      <pubDate>Sun, 09 Oct 2022 19:55:56 +0800</pubDate>
+      
+      <guid>/blog/oct-6/</guid>
+      <description>&lt;!DOCTYPE html&gt; Dear UBA Members, Hope you learnt a lot from our speaker panel last week! Our wonderful panelists&amp;nbsp;have&amp;nbsp;kindly provided their&amp;nbsp;emails in case you would like to reach out to them with further inquiries.</description>
+    </item>
+    
+  </channel>
+</rss>

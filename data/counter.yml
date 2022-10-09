@@ -1,0 +1,14 @@
+enable: true
+heading: "What is UBA?"
+counter_item:
+  - title: "General Members"
+    number: "70+"
+
+  - title: "Locations"
+    number: "SH & NYC"
+
+  - title: "Founded"
+    number: "2013"
+
+  - title: "Mentor-Mentee Pairings"
+    number: "23"

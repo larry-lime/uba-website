@@ -1,0 +1,39 @@
+enable: true
+title: "OUR TEAM"
+subtitle: "A bit about who we are and what we do"
+testimonial_item:
+  - thumb: "images/team/chaoyue_uba_pic.webp"
+    name: "Chaoyue Yuan"
+    company_position: "President"
+    quote: >
+      Sophomore, Business & Finance, Fashion
+
+  - thumb: "images/team/lawrence_uba_pic.webp"
+    name: "Lawrence Lim"
+    company_position: "Co-Vice President"
+    quote: >
+      Sophomore, Computer Science, Smart Contract and Web Developer
+
+  - thumb: "images/team/mahrukh_uba_pic.webp"
+    name: "Mahrukh Shaikh"
+    company_position: "Co-Vice President"
+    quote: >
+      Sophomore, Business & Marketing, Art
+
+  - thumb: "images/team/coco_uba_pic.webp"
+    name: "Coco Yang"
+    company_position: "Workhop Director"
+    quote: >
+      Sophomore, Business & Finance
+
+  - thumb: "images/team/tammy_uba_pic.webp"
+    name: "Tammy Huang"
+    company_position: "Mantorship Director"
+    quote: >
+      Sophomore, Business & Finance
+
+  - thumb: "images/team/xiaozao_uba_pic.webp"
+    name: "Xiaozao Wang"
+    company_position: "Involvement Director"
+    quote: >
+      Sophomore, IMA & Computer Science

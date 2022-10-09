@@ -1,0 +1,97 @@
+baseURL: "/"
+languageCode: en-us
+title: UBA @ NYU Shanghai
+theme: roxo
+summarylength: 25
+
+menu:
+  nav:
+    - name: Home
+      url: ""
+      weight: 1
+    - name: About Us
+      url: about
+      weight: 2
+    - name: News
+      url: news
+      weight: 3
+    - name: Events
+      url: events
+      weight: 4
+    - name: Contact Us
+      url: contact
+      weight: 5
+
+params:
+  logo: images/logo.png
+  dateFormat: 26 FEB 1994
+  description: Roxo Hugo themes | Design Agency Template by StaticMania
+  author: StaticMania
+  googleAnalitycsID: Your ID
+  # fabform: "https://fabform.io/f/USAg2Jl"
+  contactForm:
+    placeholder_first_name: First Name
+    placeholder_last_name: Last Name
+    placeholder_email: Email
+    placeholder_project_type: Message Topic
+    placeholder_about_the_project: Your Message
+    send_message: Send Message
+    projectType:
+      - value: cb
+        title: Collaboration
+      - value: id
+        title: Idea Sharing
+      - value: sp
+        title: Sponsorship
+  navAction:
+    status: true
+    name: Get in touch
+    url: contact
+  banner:
+    enable: true
+    background_image: images/backgrounds/shanghai-skyline.png
+    heading: "Undergraduate Business Association"
+    tagline: "NYU Shanghai Student Association | 上海纽约大学本科生商社"
+    primary_button: "Learn More"
+    primary_button_url: events
+    secondary_button: "Connect with Us"
+    secondary_button_url: contact
+  events:
+    enable: true
+    title: "OUR EVENTS"
+    subtitle: "Our weekly evens held at NYU Shanghai's Century Avenue campus"
+  call_to_action:
+    enable: true
+    background_image: images/backgrounds/cta-background.jpg
+    title: "LET’S WORK TOGETHER"
+    primary_button: "Send us a message"
+    primary_button_url: contact
+    secondary_button: Not Convinced
+    secondary_button_url: events
+  footer:
+    contactInfo:
+      title: Contact Info
+      address: "1555 Shiji Blvd, Pu Dong Xin Qu, Shang Hai Shi, China, 200122"
+      phone: +1 189-1752-5187
+      email: ll4715@nyu.edu
+    sitemap:
+      title: Sitemap
+      link:
+        - name: About Us
+          url: about
+        - name: Events
+          url: evenets
+        - name: Announcements
+          url: news
+        - name: Contact Us
+          url: contact
+    social:
+      title: Social Media
+      link:
+        - name: Instagram
+          url: "https://www.instagram.com/uba.nyush/?next=%2F"
+        - name: LinkedIn
+          url: "https://www.linkedin.com/company/uba-nyush/"
+    service:
+      title: "We deliver"
+      description: "develop design solutions<br>produce valuable cultural content<br>create fresh brand experience"

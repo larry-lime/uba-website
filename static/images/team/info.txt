@@ -1,0 +1,2 @@
+team size: 100x100
+testimonial size: 80x80
