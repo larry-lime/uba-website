@@ -2,7 +2,7 @@ enable: true
 title: CONNECT WITH US
 members:
   - image: images/team/chaoyue_uba_pic.webp
-    name: CHAOYUE YUAN
+    name: Chaoyue Yuan
     designation: President
     email: mailto:cy2199@nyu.edu
     linkedin: https://www.linkedin.com/in/chaoyue-yuan-570a88229/
@@ -25,28 +25,28 @@ members:
     instagram: https://www.instagram.com/mahrukh._.s/?hl=en
 
   - image: images/team/coco_uba_pic.webp
-    name: COCO YANG
+    name: Coco Yang
     designation: Workshop Board Director
     email: mailto:wy2116@nyu.edu
     linkedin: https://www.linkedin.com/in/wanrong-yang-a192a0233/
     instagram: https://www.instagram.com/_coco.yang_/?hl=en
 
   - image: images/team/tammy_uba_pic.webp
-    name: TAMMY HUANG
+    name: Tammy Huang
     designation: Mentorship Director
     email: mailto:th2673@nyu.edu
     linkedin: https://www.linkedin.com/in/tammy-huang-25b1b8225/
     instagram: https://www.instagram.com/tammyyhuang/?hl=en
 
   - image: images/team/xiaozao_uba_pic.webp
-    name: XIAOZAO WANG
+    name: Xiaozao Wang
     designation: Creative Designer
     email: mailto:xw2194@nyu.edu
     linkedin: https://www.linkedin.com/in/xiaozao-wang-a92769224/
     instagram: https://www.instagram.com/wang.xiaozao/?hl=en
 
   - image: images/team/jason_uba_pic.webp
-    name: JASON LI
+    name: Jason Li
     designation: Treasurer
     email: mailto:jl12619@nyu.edu
     linkedin: https://www.linkedin.com/in/jason-li-270730238/
