@@ -9,18 +9,7 @@
       </div>
       <div class="col-lg-6 ml-auto">
         <div class="site-contact-form">
-          <!--Socials links START-->
-          <!--TODO Paramaratize the following values-->
-          <h4>Social Media</h4>
-          <h5>Email: <a href="mailto:sh.uba.club@nyu.edu">sh.uba.club@nyu.edu</a></h5>
-          <h5>LinkedIn: <a href="https://www.linkedin.com/company/uba-nyush" target="_blank">UBA at NYUSH</a></h5>
-          <h5>Instagram: <a href="https://www.instagram.com/uba.nyush" target="_blank">uba.nyush</a></h5>
-          <h5>Linktree: <a href="https://linktr.ee/uba_nyush" target="_blank">uba_nyush</a></h5>
-          <hr>
-          <!--TODO Paramaratize the following values-->
-          <!--Socials links END-->
           <h4>{{ .Params.form_heading }}</h4>
-          <!--Contact Form START-->
           <form name="contact" method="POST" data-netlify="true">
             <div class="row">
               <div class="col-lg-6">
@@ -68,4 +57,7 @@
     </div>
   </div>
 </section>
+
+<!-- {{ partial "team.html" . }} -->
+
 {{ end }}

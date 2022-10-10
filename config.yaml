@@ -70,10 +70,10 @@ params:
     secondary_button_url: events
   footer:
     contactInfo:
-      title: Contact Info
+      title: Location
       address: "1555 Shiji Blvd, Pu Dong Xin Qu, Shang Hai Shi, China, 200122"
-      phone: +1 189-1752-5187
-      email: ll4715@nyu.edu
+      # phone: +1 189-1752-5187
+      # email: ll4715@nyu.edu
     sitemap:
       title: Sitemap
       link:
@@ -86,12 +86,16 @@ params:
         - name: Contact Us
           url: contact
     social:
-      title: Social Media
+      title: Contact Info
       link:
-        - name: Instagram
-          url: "https://www.instagram.com/uba.nyush/?next=%2F"
+        - name: Email
+          url: "mailto:sh.uba.club@nyu.edu"
         - name: LinkedIn
-          url: "https://www.linkedin.com/company/uba-nyush/"
+          url: "https://www.linkedin.com/company/uba-nyush"
+        - name: Instagram
+          url: "https://www.instagram.com/uba.nyush"
+        - name: Linktree
+          url: "https://linktr.ee/uba_nyush"
     service:
       title: "We deliver"
       description: "develop design solutions<br>produce valuable cultural content<br>create fresh brand experience"
