@@ -173,7 +173,7 @@
         </div>
         
         <div class="col-lg-4 col-md-6">
-          <div class="site-team-member">
+          <div class="hidden">
             <div class="site-team-member-image">
               <img src="/images/team/chaoyue_uba_pic.webp" alt="team-member">
             </div>
@@ -192,7 +192,7 @@
         </div>
         
         <div class="col-lg-4 col-md-6">
-          <div class="site-team-member">
+          <div class="hidden">
             <div class="site-team-member-image">
               <img src="/images/team/lawrence_uba_pic.webp" alt="team-member">
             </div>
@@ -215,7 +215,7 @@
         </div>
         
         <div class="col-lg-4 col-md-6">
-          <div class="site-team-member">
+          <div class="hidden">
             <div class="site-team-member-image">
               <img src="/images/team/mahrukh_uba_pic.webp" alt="team-member">
             </div>
@@ -234,7 +234,7 @@
         </div>
         
         <div class="col-lg-4 col-md-6">
-          <div class="site-team-member">
+          <div class="hidden">
             <div class="site-team-member-image">
               <img src="/images/team/coco_uba_pic.webp" alt="team-member">
             </div>
@@ -253,7 +253,7 @@
         </div>
         
         <div class="col-lg-4 col-md-6">
-          <div class="site-team-member">
+          <div class="hidden">
             <div class="site-team-member-image">
               <img src="/images/team/tammy_uba_pic.webp" alt="team-member">
             </div>
@@ -272,7 +272,7 @@
         </div>
         
         <div class="col-lg-4 col-md-6">
-          <div class="site-team-member">
+          <div class="hidden">
             <div class="site-team-member-image">
               <img src="/images/team/xiaozao_uba_pic.webp" alt="team-member">
             </div>
@@ -291,7 +291,7 @@
         </div>
         
         <div class="col-lg-4 col-md-6">
-          <div class="site-team-member">
+          <div class="hidden">
             <div class="site-team-member-image">
               <img src="/images/team/jason_uba_pic.webp" alt="team-member">
             </div>
@@ -314,6 +314,21 @@
   </section>
   
 
+<script>
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+      console.log(entry);
+      if (entry.isIntersecting) {
+        entry.target.classList.add("show");
+      } else {
+        entry.target.classList.remove("show");
+      }
+    });
+  });
+
+  const hiddenElements = document.querySelectorAll(".hidden");
+  hiddenElements.forEach((el) => observer.observe(el));
+</script>
 
 
 
@@ -417,6 +432,20 @@
   <div class="container">
     <div class="row">
       
+      <div class="col-lg-3 col-md-6">
+        <div class="site-footer-widget">
+          <h5 class="site-footer-widget-title">Contact Info</h5>
+          <p class="site-footer-widget-description">
+            1555 Shiji Blvd, Pu Dong Xin Qu, Shang Hai Shi, China, 200122
+            <br>
+            <a href="tel:&#43;1%20189-1752-5187">&#43;1 189-1752-5187</a>
+            <br>
+            <a href="mailto:ll4715@nyu.edu">ll4715@nyu.edu</a>
+          </p>
+        </div>
+      </div>
+      
+      
       <div class="col-lg-2 col-md-6">
         <div class="site-footer-widget">
           <h5 class="site-footer-widget-title">Sitemap</h5>
@@ -431,20 +460,6 @@
             <li><a href="/contact">Contact Us</a></li>
             
           </ul>
-        </div>
-      </div>
-      
-      
-      <div class="col-lg-3 col-md-6">
-        <div class="site-footer-widget">
-          <h5 class="site-footer-widget-title">Contact Info</h5>
-          <p class="site-footer-widget-description">
-            1555 Shiji Blvd, Pu Dong Xin Qu, Shang Hai Shi, China, 200122
-            <br>
-            <a href="tel:&#43;1%20189-1752-5187">&#43;1 189-1752-5187</a>
-            <br>
-            <a href="mailto:ll4715@nyu.edu">ll4715@nyu.edu</a>
-          </p>
         </div>
       </div>
       

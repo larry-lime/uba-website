@@ -1,18 +1,6 @@
 <footer class="site-footer">
   <div class="container">
     <div class="row">
-      {{ with .Site.Params.footer.sitemap }}
-      <div class="col-lg-2 col-md-6">
-        <div class="site-footer-widget">
-          <h5 class="site-footer-widget-title">{{ .title }}</h5>
-          <ul class="site-footer-widget-links">
-            {{ range .link }}
-            <li><a href="{{ .url | absURL }}">{{ .name }}</a></li>
-            {{ end }}
-          </ul>
-        </div>
-      </div>
-      {{ end }}
       {{ with .Site.Params.footer.contactInfo }}
       <div class="col-lg-3 col-md-6">
         <div class="site-footer-widget">
@@ -24,6 +12,18 @@
             <br>
             <a href="mailto:{{ .email }}">{{ .email }}</a>
           </p>
+        </div>
+      </div>
+      {{ end }}
+      {{ with .Site.Params.footer.sitemap }}
+      <div class="col-lg-2 col-md-6">
+        <div class="site-footer-widget">
+          <h5 class="site-footer-widget-title">{{ .title }}</h5>
+          <ul class="site-footer-widget-links">
+            {{ range .link }}
+            <li><a href="{{ .url | absURL }}">{{ .name }}</a></li>
+            {{ end }}
+          </ul>
         </div>
       </div>
       {{ end }}

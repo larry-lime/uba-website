@@ -12,7 +12,7 @@
         </div>
         {{ range .members }}
         <div class="col-lg-4 col-md-6">
-          <div class="site-team-member">
+          <div class="hidden">
             <div class="site-team-member-image">
               <img src="{{ .image | absURL }}" alt="team-member">
             </div>
@@ -39,3 +39,18 @@
   </section>
   {{ end }}
 {{ end }}
+<script>
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+      console.log(entry);
+      if (entry.isIntersecting) {
+        entry.target.classList.add("show");
+      } else {
+        entry.target.classList.remove("show");
+      }
+    });
+  });
+
+  const hiddenElements = document.querySelectorAll(".hidden");
+  hiddenElements.forEach((el) => observer.observe(el));
+</script>
