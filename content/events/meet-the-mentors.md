@@ -11,4 +11,4 @@ project_images:
   ]
 ---
 
-CONTENT TO BE ADDED
+CONTENT COMING SOON
