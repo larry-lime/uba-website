@@ -7,7 +7,7 @@ mantra_intro: "Our Mantra"
 mantra_parts:
   [
     "DISCOVER career pathways",
-    "DEVELOP indusry demanding skills",
+    "DEVELOP industry demanding skills",
     "DEDICATE to global impact",
   ]
 ---
