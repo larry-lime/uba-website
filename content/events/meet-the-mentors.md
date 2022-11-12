@@ -19,5 +19,3 @@ def func(arg):
   for i in range(10):
     print(i)
 ```
-This is a change to this article
-
