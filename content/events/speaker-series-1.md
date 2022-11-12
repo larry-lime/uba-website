@@ -10,4 +10,4 @@ project_images:
   ]
 ---
 
-CONTENT COMING SOON
+This is a change to the website
