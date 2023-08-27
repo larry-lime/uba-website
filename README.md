@@ -27,5 +27,5 @@ hugo
 ## Deploy
 
 ```bash
-git push origin main # Buit by Netlify on push
+git push origin main # Built by Netlify on push
 ```
